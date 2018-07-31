@@ -18,3 +18,27 @@ Set up before:
 After you should be able to see the cron job with:
 
 	kubectl get cronjobs -n infrastructure
+
+AWS IAM Policy:
+
+	{
+	    "Version": "2012-10-17",
+	    "Statement": [
+		{
+		    "Effect": "Allow",
+		    "Action": [
+			"ecr:BatchCheckLayerAvailability",
+			"ecr:BatchGetImage",
+			"ecr:DescribeImages",
+			"ecr:DescribeRepositories",
+			"ecr:GetAuthorizationToken",
+			"ecr:GetDownloadUrlForLayer",
+			"ecr:GetRepositoryPolicy",
+			"ecr:ListImages"
+		    ],
+		    "Resource": [
+			"*"
+		    ]
+		}
+	    ]
+	}
