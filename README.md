@@ -1,3 +1,9 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/frekele/aws-ecr-kubectl.svg)](https://hub.docker.com/r/frekele/aws-ecr-kubectl/)
+[![Docker Stars](https://img.shields.io/docker/stars/frekele/aws-ecr-kubectl.svg)](https://hub.docker.com/r/frekele/aws-ecr-kubectl/)
+[![GitHub issues](https://img.shields.io/github/issues/frekele/aws-ecr-kubectl.svg)](https://github.com/frekele/aws-ecr-kubectl/issues)
+[![GitHub forks](https://img.shields.io/github/forks/frekele/aws-ecr-kubectl.svg)](https://github.com/frekele/aws-ecr-kubectl/network)
+[![GitHub stars](https://img.shields.io/github/stars/frekele/aws-ecr-kubectl.svg)](https://github.com/frekele/aws-ecr-kubectl/stargazers)
+
 The Docker Image contains the aws-cli and kubectl.
 
 It is used to update the AWS ECR credentials periodically in a kubernetes cluster.
