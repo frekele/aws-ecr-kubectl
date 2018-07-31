@@ -13,7 +13,7 @@ You need to change the values of the environment variables in **ecr-cron.yml**.
 - AWS_REGION: YOUR-AWS-REGION
 - NAMESPACES YOUR-K8S-NAMESPACES (eg: default infrastructure)
 
-Set up before:
+Set up:
 
 	./config-aws.sh
 
