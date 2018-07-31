@@ -27,14 +27,14 @@ spec:
               - name: AWS_REGION
                 value: "YOUR-AWS-REGION"
               - name: NAMESPACES
-                value: "XXXXX YYYYY ZZZZZ"
+                value: "infrastructure default XXXXXXX"
               - name: AWS_ACCESS_KEY_ID
                 valueFrom:
                   secretKeyRef:
-                    name: aws-ecr-secrets
+                    name: aws-secrets
                     key: aws-access-key-id
               - name: AWS_SECRET_ACCESS_KEY
                 valueFrom:
                   secretKeyRef:
-                    name: aws-ecr-secrets
+                    name: aws-secrets
                     key: aws-secret-access-key
