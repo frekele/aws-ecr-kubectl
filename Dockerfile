@@ -19,3 +19,4 @@ ENV PATH /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:
 RUN pip install awscli --upgrade --user
 
 ADD run.sh /run.sh
+RUN chmod +x /run.sh
