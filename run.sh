@@ -10,7 +10,6 @@ for namespace in ${NAMESPACES}
 do
 	echo
 	echo "Working in Namespace ${namespace}"
-	echo
 	echo "Removing previous secret in namespace ${namespace}"
 	kubectl delete secret aws-registry --namespace=${namespace} || true
 
