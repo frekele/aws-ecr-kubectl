@@ -14,6 +14,11 @@ You need to add your credentials inside the file **aws-ecr-secrets.yml**.
 - aws-access-key-id: YOUR-AWS-ACCESS-KEY-ID
 - aws-secret-access-key: YOUR-AWS-SECRET-ACCESS-KEY
 
+Secrets need to be converted to base64. Eg:
+
+	echo -n 'AMJZ7XOS5QSYJKIAJ5Q4' | base64
+
+
 You need to change the values of the environment variables in **ecr-cron.yml**.
 - AWS_ACCOUNT: YOUR-AWS-ACCOUNT
 - AWS_REGION: YOUR-AWS-REGION
