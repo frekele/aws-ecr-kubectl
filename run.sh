@@ -12,7 +12,7 @@ do
 	echo "Working in Namespace ${namespace}"
 	echo
 	echo "Removing previous secret in namespace ${namespace}"
-	kubectl --namespace=${namespace} delete secret aws-registry || true
+	kubectl delete secret aws-registry --namespace=${namespace} || true
 
 	echo "Creating new secret in namespace ${namespace}"
 	kubectl create secret docker-registry aws-registry \
