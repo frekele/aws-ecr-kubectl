@@ -18,7 +18,7 @@ spec:
           containers:
           - name: kubectl
             imagePullPolicy: Always
-            image: frekele/aws-kubectl:stable
+            image: frekele/aws-ecr-kubectl:stable
             command:
               - "/run.sh"
             env:
