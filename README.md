@@ -11,7 +11,7 @@ You need to add your credentials inside the file **aws-ecr-secrets.yml**.
 You need to change the values of the environment variables in **ecr-cron.yml**.
 - AWS_ACCOUNT: YOUR-AWS-ACCOUNT
 - AWS_REGION: YOUR-AWS-REGION
-- NAMESPACES YOUR-K8S-NAMESPACES (eg: default infrastructure)
+- NAMESPACES YOUR-K8S-NAMESPACES (eg: infrastructure default test dev)
 
 Set up:
 
@@ -19,7 +19,7 @@ Set up:
 
 After you should be able to see the cron job with:
 
-	kubectl get cronjobs -n my-namespace
+	kubectl get cronjobs -n infrastructure
 
 AWS IAM Policy:
 
