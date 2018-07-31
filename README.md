@@ -19,7 +19,7 @@ Set up:
 
 After you should be able to see the cron job with:
 
-	kubectl get cronjobs -n infrastructure
+	kubectl get cronjobs -n my-namespace
 
 AWS IAM Policy:
 
