@@ -13,7 +13,7 @@ You need to change the values of the environment variables in **ecr-cron.yml**.
 
 Set up before:
 
-	config-aws.sh
+	./config-aws.sh
 
 After you should be able to see the cron job with:
 
