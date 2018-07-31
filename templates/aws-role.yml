@@ -26,4 +26,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: ecr-update-service-account
-  namespace: default 
+  namespace: infrastructure
