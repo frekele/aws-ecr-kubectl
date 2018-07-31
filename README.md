@@ -3,13 +3,13 @@ The Docker Image contains the aws-cli and kubectl. It is used to update the AWS 
 # Setup
 
 You need to add your credentials inside the file **aws-ecr-secrets.yml**.
+- aws-access-key-id: YOUR-AWS-ACCESS-KEY-ID
+- aws-secret-access-key: YOUR-AWS-SECRET-ACCESS-KEY
 
 You need to change the values of the environment variables in **ecr-cron.yml**.
-- AWS_ACCOUNT
-- AWS_REGION
-- NAMESPACES (eg: default infrastructure)
-
-Also you need to set your AWS_ACCOUNT, AWS_REGION and NAMESPACES in ecr-cron.yml.
+- AWS_ACCOUNT: YOUR-AWS-ACCOUNT
+- AWS_REGION: YOUR-AWS-REGION
+- NAMESPACES YOUR-K8S-NAMESPACES (eg: default infrastructure)
 
 Set up before:
 
