@@ -40,14 +40,14 @@ AWS IAM Policy:
 		{
 		    "Effect": "Allow",
 		    "Action": [
-			"ecr:BatchCheckLayerAvailability",
-			"ecr:BatchGetImage",
-			"ecr:DescribeImages",
-			"ecr:DescribeRepositories",
 			"ecr:GetAuthorizationToken",
+			"ecr:BatchCheckLayerAvailability",
 			"ecr:GetDownloadUrlForLayer",
 			"ecr:GetRepositoryPolicy",
-			"ecr:ListImages"
+			"ecr:DescribeRepositories",
+			"ecr:ListImages",
+			"ecr:DescribeImages",
+			"ecr:BatchGetImage"
 		    ],
 		    "Resource": [
 			"*"
