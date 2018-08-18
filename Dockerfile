@@ -1,6 +1,6 @@
 FROM python:alpine
 
-MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
+MAINTAINER frekele <leandro@frekele.org>
 
 RUN apk --no-cache add curl
 
