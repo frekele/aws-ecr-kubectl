@@ -58,3 +58,4 @@ AWS IAM Policy:
 
 Built-based on the blog post:
  - https://medium.com/@damitj07/how-to-configure-and-use-aws-ecr-with-kubernetes-rancher2-0-6144c626d42c
+
